@@ -23,7 +23,8 @@ $senha = MD5($_POST['senha']);
 // verifica se o usuario digitou o login
 if($login == "") {
 	echo "<div class=\"alert alert-warning"."\" role=\"alert\" align=\"center\">";
-	echo"<br>O campo Login deve ser preenchido!!!<br>";
+	echo"<br>O campo Login deve ser preenchido!!!<br>
+         <a href='cadastro.html'>Voltar</a><br>";
 	echo "</div>";
 	exit;
 } else {
